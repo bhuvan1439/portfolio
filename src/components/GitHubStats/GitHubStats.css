@@ -1,0 +1,235 @@
+.github-section {
+  background-color: var(--bg-secondary);
+  border-top: 2px solid #202020;
+}
+
+.github-glow {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  width: 300px;
+  height: 300px;
+  background: rgba(230, 36, 41, 0.02);
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+.github-visuals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+}
+
+.git-calendar-card {
+  padding: 2rem;
+  border-radius: 0px; /* Sharp */
+}
+
+.git-card-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-display);
+}
+
+.git-card-icon {
+  color: var(--accent-red);
+}
+
+.git-calendar-wrapper {
+  overflow-x: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.git-calendar-img {
+  max-width: 100%;
+  border-radius: 0px;
+  min-width: 720px;
+  filter: saturate(1.2) brightness(1.2);
+}
+
+.git-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.git-stats-card {
+  padding: 1.5rem;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.readme-stats-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.git-trophy-card {
+  padding: 2rem;
+  border-radius: 0px;
+}
+
+.git-trophies-wrapper {
+  overflow-x: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.git-trophies-img {
+  max-width: 100%;
+  height: auto;
+  min-width: 700px;
+}
+
+/* Repos grid */
+.repos-section-title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.repos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.repo-card {
+  padding: 1.5rem;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: all var(--transition-normal);
+}
+
+.repo-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-red);
+  box-shadow: 0 10px 30px rgba(230, 36, 41, 0.12);
+}
+
+.repo-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+
+.repo-github-icon {
+  color: var(--accent-red);
+  transition: transform var(--transition-fast);
+}
+
+.repo-card:hover .repo-github-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.repo-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+}
+
+.repo-card:hover .repo-name {
+  color: var(--accent-red);
+}
+
+.repo-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 52px;
+}
+
+.repo-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #202020;
+}
+
+.repo-lang-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.lang-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.repo-lang {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+}
+
+.repo-metrics {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--text-muted);
+}
+
+.metric-item {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+@media (max-width: 1200px) {
+  .repos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .git-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .repos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .repos-grid {
+    grid-template-columns: 1fr;
+  }
+}

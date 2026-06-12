@@ -1,0 +1,122 @@
+.skills-section {
+  background-color: var(--bg-primary);
+  border-top: 2px solid #202020;
+}
+
+.skills-backdrop-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  height: 480px;
+  background: rgba(230, 36, 41, 0.02);
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+.skills-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 3.5rem;
+}
+
+.skills-tab-btn {
+  background: #151515;
+  border: 1px solid #2a2a2a;
+  color: #888888;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0px; /* Sharp */
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  transform: skewX(-6deg);
+}
+
+.skills-tab-btn:hover {
+  color: #ffffff;
+  border-color: var(--accent-red);
+}
+
+.skills-tab-btn.active {
+  background-color: var(--accent-red);
+  color: #ffffff;
+  border-color: var(--accent-red);
+  box-shadow: 0 4px 15px rgba(230, 36, 41, 0.3);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.skill-bar-card {
+  padding: 1.5rem;
+  border-radius: 0px; /* Sharp */
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+
+.skill-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.skill-percent {
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-family: var(--font-display);
+  padding: 0.15rem 0.45rem;
+  border-radius: 0px;
+  background: #111111;
+  border: 1px solid #202020;
+}
+
+.skill-track {
+  height: 8px;
+  background: #000000;
+  border-radius: 0px; /* Sharp */
+  overflow: hidden;
+  border: 1px solid #202020;
+}
+
+.skill-progress {
+  height: 100%;
+  border-radius: 0px; /* Sharp */
+  width: 0;
+  transition: width 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-tabs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .skills-tab-btn {
+    transform: none;
+  }
+}

@@ -1,0 +1,171 @@
+.about-section {
+  background-color: var(--bg-secondary);
+  border-top: 2px solid #202020;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+/* Tabs list on the left */
+.about-tabs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-bottom: 2px solid #202020;
+  padding-bottom: 0.75rem;
+}
+
+.tab-btn {
+  background: #151515;
+  border: 1px solid #2a2a2a;
+  color: #888888;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0px; /* Sharp */
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  transform: skewX(-6deg);
+}
+
+.tab-btn:hover {
+  color: #ffffff;
+  border-color: var(--accent-red);
+}
+
+.tab-btn.active {
+  color: #ffffff;
+  background-color: var(--accent-red);
+  border-color: var(--accent-red);
+}
+
+/* Content block */
+.about-content-card {
+  padding: 2.5rem;
+  border-radius: 0px;
+}
+
+.about-content-title {
+  font-size: 1.65rem;
+  line-height: 1.3;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-display);
+  color: #ffffff;
+}
+
+.about-content-text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Interests focus areas on the right */
+.about-interests-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.interests-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-family: var(--font-display);
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.interest-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0px;
+  border: 1px solid #202020;
+  background-color: #151515;
+}
+
+.interest-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-red);
+}
+
+.interest-icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 0px;
+  background: #111111;
+  border: 1px solid #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.interest-card:hover .interest-icon-wrapper {
+  background: var(--accent-red);
+  border-color: var(--accent-red);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.interest-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.interest-card:hover .interest-name {
+  color: #fff;
+}
+
+.interest-red {
+  color: var(--accent-red);
+  transition: color var(--transition-fast);
+}
+
+.interest-card:hover .interest-red {
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content-card {
+    padding: 1.5rem;
+  }
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+  .tab-btn {
+    transform: none;
+  }
+}

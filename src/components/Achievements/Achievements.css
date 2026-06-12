@@ -1,0 +1,164 @@
+.achievements-section {
+  background-color: var(--bg-primary);
+  border-top: 2px solid #202020;
+}
+
+.ach-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 4rem;
+}
+
+.ach-stat-card {
+  padding: 1.75rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px; /* Sharp */
+}
+
+.ach-stat-bg-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(230, 36, 41, 0.05) 0%, transparent 75%);
+  z-index: 1;
+}
+
+.ach-stat-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-red);
+}
+
+.ach-stat-val {
+  font-size: 2.75rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-display);
+}
+
+.ach-stat-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-display);
+}
+
+.highlight-purple,
+.highlight-rose,
+.highlight-cyan,
+.highlight-emerald {
+  color: var(--accent-red);
+  text-shadow: 0 0 10px rgba(230, 36, 41, 0.2);
+}
+
+/* Milestones Grid */
+.ach-milestones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.ach-card {
+  padding: 2rem;
+  border-radius: 0px;
+}
+
+.ach-purple,
+.ach-rose,
+.ach-cyan,
+.ach-emerald {
+  border-left: 4px solid var(--accent-red);
+}
+
+.ach-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ach-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 0px;
+  background-color: var(--bg-primary);
+  border: 1px solid #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ach-icon-purple,
+.ach-icon-rose,
+.ach-icon-cyan,
+.ach-icon-emerald {
+  color: var(--accent-red);
+  filter: drop-shadow(0 0 4px var(--accent-red-glow));
+}
+
+.ach-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0px;
+  background: #111111;
+  border: 1px solid #202020;
+  color: var(--text-muted);
+}
+
+.ach-card:hover .ach-badge {
+  border-color: #333333;
+  color: #ffffff;
+}
+
+.ach-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  font-family: var(--font-display);
+}
+
+.ach-subtitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-red);
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.ach-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .ach-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ach-milestones-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .ach-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .ach-milestones-grid {
+    grid-template-columns: 1fr;
+  }
+}
