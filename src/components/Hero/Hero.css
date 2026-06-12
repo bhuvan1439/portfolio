@@ -71,7 +71,7 @@
   margin-bottom: 2rem;
   clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
   transform: skewX(-6deg);
-  box-shadow: 0 4px 15px rgba(230, 36, 41, 0.3);
+  box-shadow: 0 4px 15px rgba(240, 90, 40, 0.3);
 }
 
 /* Hero Titles */
@@ -89,7 +89,7 @@
   font-size: 5rem;
   font-weight: 900;
   letter-spacing: -0.03em;
-  text-shadow: 0 0 10px rgba(230, 36, 41, 0.2);
+  text-shadow: 0 0 10px rgba(240, 90, 40, 0.2);
 }
 
 .hero-subtitle {
@@ -202,7 +202,7 @@
 
 .floating-card.marvel-card-skew:hover {
   border-color: var(--accent-red);
-  box-shadow: 0 20px 40px rgba(230, 36, 41, 0.15);
+  box-shadow: 0 20px 40px rgba(240, 90, 40, 0.15);
 }
 
 .card-top-accent {
@@ -228,7 +228,7 @@
   background: var(--accent-red);
   padding: 3px;
   margin: 0 auto 1.25rem;
-  box-shadow: 0 0 15px rgba(230, 36, 41, 0.3);
+  box-shadow: 0 0 15px rgba(240, 90, 40, 0.3);
 }
 
 .profile-avatar {

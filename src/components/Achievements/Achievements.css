@@ -21,7 +21,7 @@
 .ach-stat-bg-glow {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, rgba(230, 36, 41, 0.05) 0%, transparent 75%);
+  background: radial-gradient(circle at center, rgba(240, 90, 40, 0.05) 0%, transparent 75%);
   z-index: 1;
 }
 
@@ -55,7 +55,7 @@
 .highlight-cyan,
 .highlight-emerald {
   color: var(--accent-red);
-  text-shadow: 0 0 10px rgba(230, 36, 41, 0.2);
+  text-shadow: 0 0 10px rgba(240, 90, 40, 0.2);
 }
 
 /* Milestones Grid */

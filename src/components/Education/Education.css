@@ -184,7 +184,7 @@
   border: 1px solid var(--accent-red);
   color: #ffffff;
   font-family: var(--font-display);
-  box-shadow: 0 0 10px rgba(230, 36, 41, 0.2);
+  box-shadow: 0 0 10px rgba(240, 90, 40, 0.2);
 }
 
 @media (max-width: 576px) {

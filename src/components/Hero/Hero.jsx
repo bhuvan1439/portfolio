@@ -102,7 +102,7 @@ function CanvasParticles() {
       particlesArray = [];
       const count = Math.min(Math.floor((canvas.width * canvas.height) / 10000), 100);
       // Marvel Red and White particles
-      const colors = ["rgba(230, 36, 41, 0.4)", "rgba(230, 36, 41, 0.2)", "rgba(255, 255, 255, 0.15)"];
+      const colors = ["rgba(240, 90, 40, 0.4)", "rgba(240, 90, 40, 0.2)", "rgba(255, 255, 255, 0.15)"];
 
       for (let i = 0; i < count; i++) {
         let size = Math.random() * 2 + 1;
@@ -135,7 +135,7 @@ function CanvasParticles() {
 
           if (dist < 120) {
             opacity = (1 - dist / 120) * 0.15;
-            ctx.strokeStyle = `rgba(230, 36, 41, ${opacity})`;
+            ctx.strokeStyle = `rgba(240, 90, 40, ${opacity})`;
             ctx.lineWidth = 0.8;
             ctx.beginPath();
             ctx.moveTo(particlesArray[a].x, particlesArray[a].y);

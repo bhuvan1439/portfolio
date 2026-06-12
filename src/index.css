@@ -9,11 +9,11 @@
   --bg-card: #151515;
   --bg-card-hover: #1c1c1c;
   --border-color: #2a2a2a;
-  --border-glow: rgba(230, 36, 41, 0.3);
+  --border-glow: rgba(240, 90, 40, 0.3);
   
-  --accent-red: #e62429;
-  --accent-red-hover: #ff3a3f;
-  --accent-red-glow: rgba(230, 36, 41, 0.45);
+  --accent-red: #f05a28;
+  --accent-red-hover: #ff7343;
+  --accent-red-glow: rgba(240, 90, 40, 0.45);
   
   --text-primary: #ffffff;
   --text-secondary: #c1c1c1;
@@ -25,7 +25,7 @@
   
   /* Effects */
   --glass-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  --neon-glow: 0 0 15px rgba(230, 36, 41, 0.25);
+  --neon-glow: 0 0 15px rgba(240, 90, 40, 0.25);
   
   --transition-fast: 0.15s ease-out;
   --transition-normal: 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--bg-card-hover);
   border-color: var(--accent-red);
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(230, 36, 41, 0.15);
+  box-shadow: 0 12px 30px rgba(240, 90, 40, 0.15);
 }
 
 .glass-card:hover::before {
@@ -192,14 +192,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--accent-red);
   color: #ffffff;
   border: 1px solid var(--accent-red);
-  box-shadow: 0 4px 12px rgba(230, 36, 41, 0.2);
+  box-shadow: 0 4px 12px rgba(240, 90, 40, 0.2);
 }
 
 .btn-primary:hover {
   background-color: var(--accent-red-hover);
   border-color: var(--accent-red-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(230, 36, 41, 0.4);
+  box-shadow: 0 6px 18px rgba(240, 90, 40, 0.4);
 }
 
 .btn-secondary {

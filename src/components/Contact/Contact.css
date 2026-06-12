@@ -63,8 +63,8 @@
   width: 42px;
   height: 42px;
   border-radius: 0px;
-  background: rgba(230, 36, 41, 0.05);
-  border: 1px solid rgba(230, 36, 41, 0.35);
+  background: rgba(240, 90, 40, 0.05);
+  border: 1px solid rgba(240, 90, 40, 0.35);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +185,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--accent-red);
-  box-shadow: 0 0 10px rgba(230, 36, 41, 0.25);
+  box-shadow: 0 0 10px rgba(240, 90, 40, 0.25);
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -210,8 +210,8 @@
 }
 
 .form-status.error {
-  background: rgba(230, 36, 41, 0.08);
-  border: 1px solid rgba(230, 36, 41, 0.25);
+  background: rgba(240, 90, 40, 0.08);
+  border: 1px solid rgba(240, 90, 40, 0.25);
   color: #fecdd3;
 }
 
