@@ -104,7 +104,7 @@ export default function GitHubStats() {
         </div>
 
         <div className="github-visuals-container">
-          {/* Contributions calendar - Red themed (e62429) */}
+          {/* Contributions calendar - Orange themed (f05a28) */}
           <div className="git-calendar-card glass-card">
             <h3 className="git-card-title">
               <Terminal size={14} className="git-card-icon" />
@@ -112,7 +112,7 @@ export default function GitHubStats() {
             </h3>
             <div className="git-calendar-wrapper">
               <img
-                src={`https://ghchart.rshah.org/e62429/${username}`}
+                src={`https://ghchart.rshah.org/f05a28/${username}`}
                 alt="Sangam Bhuvan Reddy GitHub Contributions Calendar"
                 className="git-calendar-img"
                 onError={(e) => { e.target.style.display = 'none'; }}
@@ -120,11 +120,11 @@ export default function GitHubStats() {
             </div>
           </div>
 
-          {/* Badges and statistics - Red themed (e62429) */}
+          {/* Badges and statistics - Orange themed (f05a28) */}
           <div className="git-stats-grid">
             <div className="git-stats-card glass-card">
               <img
-                src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=transparent&title_color=e62429&icon_color=ffffff&text_color=cbd5e1&border_color=ffffff00&hide_border=true&bg_color=00000000`}
+                src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=transparent&title_color=f05a28&icon_color=ffffff&text_color=cbd5e1&border_color=ffffff00&hide_border=true&bg_color=00000000`}
                 alt="Sangam Bhuvan Reddy General Stats"
                 className="readme-stats-img"
                 onError={(e) => { e.target.style.display = 'none'; }}
@@ -133,7 +133,7 @@ export default function GitHubStats() {
 
             <div className="git-stats-card glass-card">
               <img
-                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent&title_color=e62429&icon_color=ffffff&text_color=cbd5e1&border_color=ffffff00&hide_border=true&bg_color=00000000`}
+                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent&title_color=f05a28&icon_color=ffffff&text_color=cbd5e1&border_color=ffffff00&hide_border=true&bg_color=00000000`}
                 alt="Sangam Bhuvan Reddy Top Languages"
                 className="readme-stats-img"
                 onError={(e) => { e.target.style.display = 'none'; }}

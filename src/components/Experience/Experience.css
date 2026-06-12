@@ -39,7 +39,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(to bottom, var(--accent-red), #333333);
+  background: linear-gradient(to bottom, var(--accent-orange), #333333);
   opacity: 0.3;
   transform: translateX(-50%);
 }
@@ -73,7 +73,7 @@
   width: 16px;
   height: 16px;
   border-radius: 0px; /* Square */
-  background: var(--accent-red);
+  background: var(--accent-orange);
   border: 2px solid #ffffff;
   z-index: 10;
   display: flex;
@@ -112,7 +112,7 @@
 .accent-purple-border,
 .accent-rose-border,
 .accent-cyan-border {
-  border-left: 4px solid var(--accent-red);
+  border-left: 4px solid var(--accent-orange);
 }
 
 .card-top {
@@ -131,7 +131,7 @@
 
 .company-name {
   font-size: 0.9rem;
-  color: var(--accent-red);
+  color: var(--accent-orange);
   font-family: var(--font-display);
   font-weight: 700;
   text-transform: uppercase;
@@ -164,7 +164,7 @@
   letter-spacing: 0.05em;
   padding: 0.2rem 0.5rem;
   border-radius: 0px;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   color: #ffffff;
 }
 
@@ -194,7 +194,7 @@
 }
 
 .bullet-star {
-  color: var(--accent-red);
+  color: var(--accent-orange);
   margin-top: 0.25rem;
   flex-shrink: 0;
 }
@@ -226,8 +226,8 @@
 }
 
 .experience-card:hover .skill-pill:hover {
-  background-color: var(--accent-red);
-  border-color: var(--accent-red);
+  background-color: var(--accent-orange);
+  border-color: var(--accent-orange);
   color: #ffffff;
 }
 

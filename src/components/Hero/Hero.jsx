@@ -101,7 +101,7 @@ function CanvasParticles() {
     const init = () => {
       particlesArray = [];
       const count = Math.min(Math.floor((canvas.width * canvas.height) / 10000), 100);
-      // Marvel Red and White particles
+      // Marvel Orange and White particles
       const colors = ["rgba(240, 90, 40, 0.4)", "rgba(240, 90, 40, 0.2)", "rgba(255, 255, 255, 0.15)"];
 
       for (let i = 0; i < count; i++) {
@@ -171,9 +171,9 @@ export default function Hero() {
   }, []);
 
   const stats = [
-    { label: "Hackathons Won", val: "1 🏆", color: "stat-red" },
+    { label: "Hackathons Won", val: "1 🏆", color: "stat-orange" },
     { label: "Projects Built", val: "8+", color: "stat-white" },
-    { label: "Current CGPA", val: "7.0 / 10", color: "stat-red" },
+    { label: "Current CGPA", val: "7.0 / 10", color: "stat-orange" },
     { label: "GitHub Repos", val: "9+", color: "stat-white" },
   ];
 
@@ -220,10 +220,10 @@ export default function Hero() {
             </h1>
 
             <div className="hero-subtitle">
-              <span className="sub-red">Software</span> &amp;{" "}
+              <span className="sub-orange">Software</span> &amp;{" "}
               <span className="sub-white">AI Developer</span>
               <span className="sub-divider">|</span>
-              <span className="sub-red">Hackathon Expert</span>
+              <span className="sub-orange">Hackathon Expert</span>
             </div>
 
             <div className="hero-desc">

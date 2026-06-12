@@ -27,7 +27,7 @@
 
 .ach-stat-card:hover {
   transform: translateY(-2px);
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .ach-stat-val {
@@ -54,7 +54,7 @@
 .highlight-rose,
 .highlight-cyan,
 .highlight-emerald {
-  color: var(--accent-red);
+  color: var(--accent-orange);
   text-shadow: 0 0 10px rgba(240, 90, 40, 0.2);
 }
 
@@ -74,7 +74,7 @@
 .ach-rose,
 .ach-cyan,
 .ach-emerald {
-  border-left: 4px solid var(--accent-red);
+  border-left: 4px solid var(--accent-orange);
 }
 
 .ach-card-header {
@@ -100,8 +100,8 @@
 .ach-icon-rose,
 .ach-icon-cyan,
 .ach-icon-emerald {
-  color: var(--accent-red);
-  filter: drop-shadow(0 0 4px var(--accent-red-glow));
+  color: var(--accent-orange);
+  filter: drop-shadow(0 0 4px var(--accent-orange-glow));
 }
 
 .ach-badge {
@@ -133,7 +133,7 @@
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--accent-red);
+  color: var(--accent-orange);
   font-family: var(--font-display);
   letter-spacing: 0.02em;
   margin-bottom: 1rem;

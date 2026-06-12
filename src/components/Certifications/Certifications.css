@@ -18,7 +18,7 @@
 
 .cert-card:hover {
   transform: translateY(-2px);
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .cert-header {
@@ -43,8 +43,8 @@
 .cert-icon-rose,
 .cert-icon-cyan,
 .cert-icon-emerald {
-  color: var(--accent-red);
-  filter: drop-shadow(0 0 3px var(--accent-red-glow));
+  color: var(--accent-orange);
+  filter: drop-shadow(0 0 3px var(--accent-orange-glow));
 }
 
 .cert-year-tag {
@@ -92,7 +92,7 @@
 }
 
 .cert-card:hover .cert-provider-text {
-  color: var(--accent-red);
+  color: var(--accent-orange);
 }
 
 .cert-footer {
@@ -109,14 +109,14 @@
   font-weight: 700;
   font-family: var(--font-display);
   text-transform: uppercase;
-  color: var(--accent-red);
+  color: var(--accent-orange);
 }
 
 .verified-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
   animation: pulse-ring 2s infinite;
 }
 
@@ -124,7 +124,7 @@
 .cert-rose,
 .cert-cyan,
 .cert-emerald {
-  border-left: 3px solid var(--accent-red);
+  border-left: 3px solid var(--accent-orange);
 }
 
 @media (max-width: 1200px) {

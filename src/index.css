@@ -11,9 +11,9 @@
   --border-color: #2a2a2a;
   --border-glow: rgba(240, 90, 40, 0.3);
   
-  --accent-red: #f05a28;
-  --accent-red-hover: #ff7343;
-  --accent-red-glow: rgba(240, 90, 40, 0.45);
+  --accent-orange: #f05a28;
+  --accent-orange-hover: #ff7343;
+  --accent-orange-glow: rgba(240, 90, 40, 0.45);
   
   --text-primary: #ffffff;
   --text-secondary: #c1c1c1;
@@ -80,10 +80,10 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-red);
+  background: var(--accent-orange);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-red-hover);
+  background: var(--accent-orange-hover);
 }
 
 /* Core Marvel Block Card */
@@ -110,18 +110,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .glass-card:hover {
   background: var(--bg-card-hover);
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(240, 90, 40, 0.15);
 }
 
 .glass-card:hover::before {
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
 }
 
 /* Glowing text and gradient text */
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 0%, var(--accent-red) 70%, #9a1215 100%);
+  background: linear-gradient(135deg, #ffffff 0%, var(--accent-orange) 70%, #962d07 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-gradient-purple-cyan,
 .text-gradient-rose-cyan {
-  background: linear-gradient(135deg, #ffffff 0%, var(--accent-red) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, var(--accent-orange) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 .border-cyan,
 .border-emerald,
 .border-rose {
-  border-left: 4px solid var(--accent-red);
+  border-left: 4px solid var(--accent-orange);
 }
 
 /* Badges */
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   border: none;
   color: #ffffff;
   clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
@@ -189,15 +189,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
   color: #ffffff;
-  border: 1px solid var(--accent-red);
+  border: 1px solid var(--accent-orange);
   box-shadow: 0 4px 12px rgba(240, 90, 40, 0.2);
 }
 
 .btn-primary:hover {
-  background-color: var(--accent-red-hover);
-  border-color: var(--accent-red-hover);
+  background-color: var(--accent-orange-hover);
+  border-color: var(--accent-orange-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(240, 90, 40, 0.4);
 }
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-header {
   text-align: left;
   margin-bottom: 4rem;
-  border-left: 5px solid var(--accent-red);
+  border-left: 5px solid var(--accent-orange);
   padding-left: 1.5rem;
 }
 

@@ -29,13 +29,13 @@
 
 .filter-btn:hover {
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .filter-btn.active {
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .projects-grid {
@@ -98,7 +98,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0.25rem 0.65rem;
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
   color: #ffffff;
   z-index: 5;
   transform: skewX(-6deg);
@@ -129,7 +129,7 @@
   text-transform: uppercase;
   color: #fff;
   padding: 0.5rem 1.25rem;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   box-shadow: 0 0 12px rgba(240, 90, 40, 0.4);
   transform: skewX(-6deg);
 }
@@ -204,7 +204,7 @@
 
 .project-tag-pill.more-tags {
   background: rgba(240, 90, 40, 0.08);
-  color: var(--accent-red);
+  color: var(--accent-orange);
   border-color: rgba(240, 90, 40, 0.15);
 }
 
@@ -237,7 +237,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 0px;
-  border: 2px solid var(--accent-red);
+  border: 2px solid var(--accent-orange);
   background-color: #111111;
   animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -266,9 +266,9 @@
 }
 
 .modal-close:hover {
-  background: var(--accent-red);
+  background: var(--accent-orange);
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
   transform: rotate(90deg);
 }
 
@@ -328,7 +328,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   color: #ffffff;
   margin-bottom: 0.75rem;
 }
@@ -343,7 +343,7 @@
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--accent-red);
+  color: var(--accent-orange);
   font-family: var(--font-display);
 }
 

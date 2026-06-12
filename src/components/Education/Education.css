@@ -15,7 +15,7 @@
   top: 10px;
   bottom: 10px;
   width: 2px;
-  background: linear-gradient(to bottom, var(--accent-red), #333333);
+  background: linear-gradient(to bottom, var(--accent-orange), #333333);
   opacity: 0.3;
 }
 
@@ -44,7 +44,7 @@
 .edu-node-glow {
   position: absolute;
   inset: 0px;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   border-radius: 0px; /* Sharp */
   opacity: 0.15;
   filter: blur(4px);
@@ -70,7 +70,7 @@
 .edu-icon-purple,
 .edu-icon-cyan,
 .edu-icon-emerald {
-  color: var(--accent-red);
+  color: var(--accent-orange);
 }
 
 /* Card Body */
@@ -84,7 +84,7 @@
 .edu-purple,
 .edu-cyan,
 .edu-emerald {
-  border-left: 4px solid var(--accent-red);
+  border-left: 4px solid var(--accent-orange);
 }
 
 .edu-card-header {
@@ -134,7 +134,7 @@
   font-weight: 700;
   padding: 0.2rem 0.5rem;
   border-radius: 0px;
-  background: var(--accent-red);
+  background: var(--accent-orange);
   color: #ffffff;
   font-family: var(--font-display);
   text-transform: uppercase;
@@ -180,8 +180,8 @@
   font-weight: 800;
   padding: 0.35rem 0.85rem;
   border-radius: 0px;
-  background: var(--accent-red);
-  border: 1px solid var(--accent-red);
+  background: var(--accent-orange);
+  border: 1px solid var(--accent-orange);
   color: #ffffff;
   font-family: var(--font-display);
   box-shadow: 0 0 10px rgba(240, 90, 40, 0.2);

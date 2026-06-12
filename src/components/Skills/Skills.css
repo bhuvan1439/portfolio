@@ -40,13 +40,13 @@
 
 .skills-tab-btn:hover {
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .skills-tab-btn.active {
-  background-color: var(--accent-red);
+  background-color: var(--accent-orange);
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
   box-shadow: 0 4px 15px rgba(240, 90, 40, 0.3);
 }
 

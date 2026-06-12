@@ -23,18 +23,18 @@ export default function About() {
   }, []);
 
   const techInterests = [
-    { name: "Full Stack Development", icon: <Code className="interest-red" /> },
-    { name: "Frontend & UI/UX Design", icon: <Sparkles className="interest-red" /> },
-    { name: "React & Modern Web", icon: <FileCode className="interest-red" /> },
-    { name: "Backend with Node.js", icon: <Server className="interest-red" /> },
-    { name: "Database Architectures", icon: <Database className="interest-red" /> },
-    { name: "Machine Learning & AI", icon: <Brain className="interest-red" /> },
-    { name: "Cloud Infrastructure", icon: <Cpu className="interest-red" /> },
-    { name: "Cybersecurity & CTFs", icon: <Shield className="interest-red" /> },
-    { name: "Data Analytics & BI", icon: <BarChart className="interest-red" /> },
-    { name: "Open Source Engagement", icon: <GitBranch className="interest-red" /> },
-    { name: "Mobile App Development", icon: <Smartphone className="interest-red" /> },
-    { name: "Best Coding Practices", icon: <Terminal className="interest-red" /> },
+    { name: "Full Stack Development", icon: <Code className="interest-orange" /> },
+    { name: "Frontend & UI/UX Design", icon: <Sparkles className="interest-orange" /> },
+    { name: "React & Modern Web", icon: <FileCode className="interest-orange" /> },
+    { name: "Backend with Node.js", icon: <Server className="interest-orange" /> },
+    { name: "Database Architectures", icon: <Database className="interest-orange" /> },
+    { name: "Machine Learning & AI", icon: <Brain className="interest-orange" /> },
+    { name: "Cloud Infrastructure", icon: <Cpu className="interest-orange" /> },
+    { name: "Cybersecurity & CTFs", icon: <Shield className="interest-orange" /> },
+    { name: "Data Analytics & BI", icon: <BarChart className="interest-orange" /> },
+    { name: "Open Source Engagement", icon: <GitBranch className="interest-orange" /> },
+    { name: "Mobile App Development", icon: <Smartphone className="interest-orange" /> },
+    { name: "Best Coding Practices", icon: <Terminal className="interest-orange" /> },
   ];
 
   const tabs = [

@@ -46,13 +46,13 @@
 
 .tab-btn:hover {
   color: #ffffff;
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .tab-btn.active {
   color: #ffffff;
-  background-color: var(--accent-red);
-  border-color: var(--accent-red);
+  background-color: var(--accent-orange);
+  border-color: var(--accent-orange);
 }
 
 /* Content block */
@@ -107,7 +107,7 @@
 
 .interest-card:hover {
   transform: translateY(-2px);
-  border-color: var(--accent-red);
+  border-color: var(--accent-orange);
 }
 
 .interest-icon-wrapper {
@@ -123,8 +123,8 @@
 }
 
 .interest-card:hover .interest-icon-wrapper {
-  background: var(--accent-red);
-  border-color: var(--accent-red);
+  background: var(--accent-orange);
+  border-color: var(--accent-orange);
   color: #ffffff;
   transform: scale(1.05);
 }
@@ -142,12 +142,12 @@
   color: #fff;
 }
 
-.interest-red {
-  color: var(--accent-red);
+.interest-orange {
+  color: var(--accent-orange);
   transition: color var(--transition-fast);
 }
 
-.interest-card:hover .interest-red {
+.interest-card:hover .interest-orange {
   color: #ffffff;
 }
 
